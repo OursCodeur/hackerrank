@@ -24,6 +24,8 @@ All C++ code passed [SonarLint](https://www.sonarlint.org/visualstudio/ "SonarLi
 
 While I'm more familiar with C++, I occasionally used Python when I felt it would result in leaner, more readable code.
 
+I recommend using PyPy3 instead of Python 3 in HackerRank's language selector - this will set the timeout limit lower for standard challenges ( [4 seconds instead of 10](https://www.hackerrank.com/environment/languages) ). On the other hand you'll benefit from PyPy's wicked fast JIT compiler.
+
 ## Checking solutions
 
 Copy-paste the proposed solution to HackerRank's 'Current Buffer' and test it ¯\\_\_(ツ)_\_/¯
