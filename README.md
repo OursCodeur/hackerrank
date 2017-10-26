@@ -4,16 +4,21 @@ You will find here my proposed solutions for (some) HackerRank questions.
 
 ## Getting Started
 
-Looking for the answer yourself first would be a good start !
+Looking for the answer yourself first would be a good start ! ( ͡° ͜ʖ ͡°)
 
 ### Prerequisites
 
-Knowing C++ and Python wouldn't hurt...
+Knowing C++ and Python won't hurt...
 
 ## About these solutions
 
 All answers passed the questions' test cases and scored the maximum possible amount.
+
 A decent amount of effort was put into keeping execution time and memory space in check.
+
+I left only the required headers to run the solution on HackerRank.
+
+All C++ code passed [SonarLint](https://www.sonarlint.org/visualstudio/ "SonarLint for Visual Studio")'s inspection, excluding warnings about using std::cin and std::cout.
 
 ## Why did you use Python on some answers ?
 
