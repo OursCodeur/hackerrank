@@ -14,8 +14,8 @@ void move_sq(Matrix& matrix, int start_row, int start_col, std::function<void(Ce
 
 	for (; c < cols - start_col - 1; ++c)	{ action(matrix[r][c]); }
 	for (; r < rows - start_row - 1; ++r)	{ action(matrix[r][c]); }
-	for (; c > start_col; --c)				{ action(matrix[r][c]); }
-	for (; r > start_row; --r)				{ action(matrix[r][c]); }
+	for (; c > start_col; --c)		{ action(matrix[r][c]); }
+	for (; r > start_row; --r)		{ action(matrix[r][c]); }
 }
 
 int main() {
